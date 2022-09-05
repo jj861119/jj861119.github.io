@@ -51,7 +51,7 @@
         // this function is used to check current theme before page loaded.
         (() => {
             const currentTheme = window.localStorage && window.localStorage.getItem('theme') || '';
-            const isDark = currentTheme === 'dark';
+            const isDark = currentTheme !== 'dark';
             const pagebody = document.getElementsByTagName('body')[0]
             if (isDark) {
                 pagebody.classList.add('dark-theme');
