@@ -44,6 +44,7 @@
     
 
 
+    <link rel="stylesheet" href="../fonts/icofont/icofont.css"> 
 <meta name="generator" content="Hexo 6.2.0"></head>
 
 <body>
@@ -51,7 +52,8 @@
         // this function is used to check current theme before page loaded.
         (() => {
             const currentTheme = window.localStorage && window.localStorage.getItem('theme') || '';
-            const isDark = currentTheme !== 'dark';
+            // const isDark = currentTheme !== 'dark';
+            const isDark = true;
             const pagebody = document.getElementsByTagName('body')[0]
             if (isDark) {
                 pagebody.classList.add('dark-theme');
@@ -145,11 +147,20 @@
         </header>
 
         <div class="post-content">
-            
+            <!-- 
 
 	<div class="row">
-    <embed src="https://github.com/Justlovesmile/CDN/tree/master/pdf/小作文講義.pdf" width="100%" height="550" type="application/pdf">
+    <embed src="../../../../中文履歷.pdf" width="100%" height="100%" type="application/pdf">
 	</div>
+
+
+ -->
+
+
+	<div class="row">
+		<iframe src="https://drive.google.com/file/d/1GLNKTkHkq27N8itB0Vd54IBCesVVrjgZ/preview#view=FitW" allowfullscreen="true" style="width:120%; height:100vh;" allow="autoplay"></iframe>
+	</div>
+
 
 
 
@@ -170,6 +181,8 @@
             </div>
         </section>
         <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/2022/09/06/Resume/">Resume</a>
             
             
         </section>

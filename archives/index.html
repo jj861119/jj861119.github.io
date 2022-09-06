@@ -44,6 +44,7 @@
     
 
 
+    <link rel="stylesheet" href="../fonts/icofont/icofont.css"> 
 <meta name="generator" content="Hexo 6.2.0"></head>
 
 <body>
@@ -51,7 +52,8 @@
         // this function is used to check current theme before page loaded.
         (() => {
             const currentTheme = window.localStorage && window.localStorage.getItem('theme') || '';
-            const isDark = currentTheme !== 'dark';
+            // const isDark = currentTheme !== 'dark';
+            const isDark = true;
             const pagebody = document.getElementsByTagName('body')[0]
             if (isDark) {
                 pagebody.classList.add('dark-theme');
@@ -131,6 +133,15 @@
 
         
             <h3>2022</h3>
+         -->
+
+        <article class="archive-item">
+            <a class="archive-item-link" href="/2022/09/06/Resume/">Resume</a>
+            <span class="archive-item-date">九月 6, 2022</span>
+        </article>
+    
+        <!-- 
+
          -->
 
         <article class="archive-item">
