@@ -11402,6 +11402,26 @@ header label {
   transform: translateY(-0.75em);
   cursor: pointer;
 }
+.about-me {
+  text-align: left;
+}
+.about-me .avatar {
+  padding: 10px;
+}
+.about-me .avatar img {
+  width: 128px;
+  height: auto;
+  display: inline-block;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 0 0 0.3618em rgba(0,0,0,0.05);
+  box-shadow: 0 0 0 0.3618em rgba(0,0,0,0.05);
+  margin: 0 auto;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
 .about-item {
   padding: 5px 2.5em;
   display: flex;
