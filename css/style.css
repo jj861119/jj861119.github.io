@@ -11241,6 +11241,7 @@ url("./fonts/icofont.woff") format("woff");
 	
 .header-logo a {
   padding: 0;
+  font-size: 18px;
 }
 .navbar .menu a {
   padding: 0 8px;
@@ -11344,12 +11345,13 @@ header label {
 }
 .intro {
   text-align: center;
+  font-size: 16px;
 }
 .intro .avatar {
   padding: 10px;
 }
 .intro .avatar img {
-  width: 128px;
+  width: 160px;
   height: auto;
   display: inline-block;
   -webkit-border-radius: 100%;
